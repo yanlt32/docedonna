@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/site-palha/static/css/main.2fc1aaea.css",
+    "main.js": "/site-palha/static/js/main.da60ea6f.js",
+    "index.html": "/site-palha/index.html",
+    "main.2fc1aaea.css.map": "/site-palha/static/css/main.2fc1aaea.css.map",
+    "main.da60ea6f.js.map": "/site-palha/static/js/main.da60ea6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fc1aaea.css",
+    "static/js/main.da60ea6f.js"
+  ]
+}
