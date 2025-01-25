@@ -1,0 +1,139 @@
+/* Estilo geral para a página de Contato */
+.contato-container {
+  background: linear-gradient(to right, #ffe6cc, #ffd699); /* Gradiente suave para dar calor */
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cabeçalho do Contato */
+.contato-header {
+  margin-bottom: 40px;
+}
+
+.contato-header h1 {
+  font-size: 3rem;
+  color: #6a2a2a; /* Cor quente e acolhedora */
+  font-family: 'Georgia', serif;
+}
+
+.contato-header p {
+  font-size: 1.5rem;
+  color: #8b4513;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilo do formulário */
+.contato-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box; /* Garantir que o padding não cause overflow */
+}
+
+/* Estilo das áreas de entrada */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1.1rem;
+  color: #6a2a2a;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input, .input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  box-sizing: border-box; /* Para não sair da tela ao adicionar padding */
+}
+
+.input-group input:focus, .input-group textarea:focus {
+  border-color: #ffb84d; /* Destaca o campo em foco */
+}
+
+/* Estilo para o botão de envio */
+.submit-button {
+  background-color: #ff8c00;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #e07b00; /* Alteração da cor do botão ao passar o mouse */
+}
+
+.submit-button:active {
+  background-color: #cc6a00;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+/* Estilo de mensagem de sucesso */
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  /* Ajusta o tamanho do título */
+  .contato-header h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Ajusta o tamanho da descrição */
+  .contato-header p {
+    font-size: 1.2rem;
+  }
+
+  /* Ajusta o tamanho do formulário */
+  .contato-form {
+    padding: 30px;
+    width: 100%;
+    max-width: 480px; /* Reduzir ainda mais em telas pequenas */
+  }
+
+  /* Ajusta o tamanho das áreas de entrada */
+  .input-group input, .input-group textarea {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  /* Ajusta o botão */
+  .submit-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+
+  /* Ajuste geral para não sair da tela */
+  .contato-container {
+    padding: 40px 10px;
+  }
+}
