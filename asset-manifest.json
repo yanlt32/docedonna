@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/docedonna/static/css/main.4f75bc04.css",
-    "main.js": "/docedonna/static/js/main.f419a0bb.js",
+    "main.js": "/docedonna/static/js/main.c14c640e.js",
     "static/media/palhatradicional.jpg": "/docedonna/static/media/palhatradicional.7e6f3179e3dd053d355d.jpg",
     "static/media/inter.png": "/docedonna/static/media/inter.325aae6a89b75b66dfac.png",
     "static/media/palhaninho.jpeg": "/docedonna/static/media/palhaninho.585aaaa7d46433b270df.jpeg",
     "index.html": "/docedonna/index.html",
     "main.4f75bc04.css.map": "/docedonna/static/css/main.4f75bc04.css.map",
-    "main.f419a0bb.js.map": "/docedonna/static/js/main.f419a0bb.js.map"
+    "main.c14c640e.js.map": "/docedonna/static/js/main.c14c640e.js.map"
   },
   "entrypoints": [
     "static/css/main.4f75bc04.css",
-    "static/js/main.f419a0bb.js"
+    "static/js/main.c14c640e.js"
   ]
 }
