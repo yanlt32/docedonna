@@ -1,0 +1,62 @@
+/* Estilo geral para a página Home */
+.home-container {
+  background: linear-gradient(to right, #f5deb3, #d2b48c); /* Fundo com gradiente suave */
+  text-align: center;
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cabeçalho da página */
+.home-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 3rem;
+  color: #6a2a2a; /* Cor chocolate para o título */
+  font-family: 'Georgia', serif;
+  margin-bottom: 10px;
+}
+
+.home-header p {
+  font-size: 1.5rem;
+  color: #8b4513; /* Cor quente para o subtítulo */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Conteúdo adicional abaixo do cabeçalho */
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #5d4037; /* Cor suave para o conteúdo */
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-content p {
+  margin: 15px 0;
+}
+
+/* Animação suave para o título */
+.home-header h1 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Efeito de fade-in para o texto */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
