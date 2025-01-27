@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/site-palha/static/css/main.2fc1aaea.css",
-    "main.js": "/site-palha/static/js/main.da60ea6f.js",
+    "main.css": "/site-palha/static/css/main.f658d9ca.css",
+    "main.js": "/site-palha/static/js/main.dc913562.js",
     "index.html": "/site-palha/index.html",
-    "main.2fc1aaea.css.map": "/site-palha/static/css/main.2fc1aaea.css.map",
-    "main.da60ea6f.js.map": "/site-palha/static/js/main.da60ea6f.js.map"
+    "main.f658d9ca.css.map": "/site-palha/static/css/main.f658d9ca.css.map",
+    "main.dc913562.js.map": "/site-palha/static/js/main.dc913562.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fc1aaea.css",
-    "static/js/main.da60ea6f.js"
+    "static/css/main.f658d9ca.css",
+    "static/js/main.dc913562.js"
   ]
 }
