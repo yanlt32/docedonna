@@ -16,20 +16,20 @@ function Produtos() {
     },
     {
       nome: 'Palha Italiana Ninho',
-      descricao: 'Uma deliciosa variação com leite ninho e chocolate brancox  .',
+      descricao: 'Uma deliciosa variação com leite ninho e chocolate branco  .',
       preco: 'R$ 18,00',
       imagem: palhaninho, // Usando a imagem 'palhaninho.jpeg'
     },
     {
-      nome: 'Palha Italiana de Chocolate',
-      descricao: 'Feita com chocolate ao leite, para os amantes de chocolate.',
+      nome: 'Palha Italiana de Nutella',
+      descricao: 'Feita com brigadeiro de nutella, para os amantes de doce.',
       preco: 'Em breve',
       imagem: inter, // Usando a imagem 'palhaninho.jpeg'
       emBreve: true, // Produto "Em breve"
     },
     {
-      nome: 'Palha Italiana Gourmet',
-      descricao: 'Uma versão gourmet com pistache e ganache de chocolate belga.',
+      nome: 'Palha Italiana de Oreo',
+      descricao: 'Uma versão da palha italiana com oreo e brigadeiro branco.',
       preco: 'Em breve',
       imagem: inter, // Usando a imagem 'palhaninho.jpeg'
       emBreve: true, // Produto "Em breve"
