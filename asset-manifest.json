@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/docedonna/static/css/main.87e38b92.css",
-    "main.js": "/docedonna/static/js/main.33825fae.js",
+    "main.css": "/docedonna/static/css/main.3c1b3335.css",
+    "main.js": "/docedonna/static/js/main.c556510f.js",
     "static/media/palhatradicional.jpg": "/docedonna/static/media/palhatradicional.7e6f3179e3dd053d355d.jpg",
     "static/media/inter.png": "/docedonna/static/media/inter.325aae6a89b75b66dfac.png",
     "static/media/palhaninho.jpeg": "/docedonna/static/media/palhaninho.585aaaa7d46433b270df.jpeg",
     "static/media/donna.png": "/docedonna/static/media/donna.558680f37ab40463e406.png",
     "index.html": "/docedonna/index.html",
-    "main.87e38b92.css.map": "/docedonna/static/css/main.87e38b92.css.map",
-    "main.33825fae.js.map": "/docedonna/static/js/main.33825fae.js.map"
+    "main.3c1b3335.css.map": "/docedonna/static/css/main.3c1b3335.css.map",
+    "main.c556510f.js.map": "/docedonna/static/js/main.c556510f.js.map"
   },
   "entrypoints": [
-    "static/css/main.87e38b92.css",
-    "static/js/main.33825fae.js"
+    "static/css/main.3c1b3335.css",
+    "static/js/main.c556510f.js"
   ]
 }
