@@ -27,18 +27,27 @@
 /* Estilo para o título com a logo */
 .home-header h1 {
   font-size: 2.5rem; /* Reduzido o tamanho da fonte do título */
+<<<<<<< HEAD
   color: #cc0148; /* Cor chocolate para o título */
+=======
+  color: #6a2a2a; /* Cor chocolate para o título */
+>>>>>>> 10c8bba3f2e07d6370cf831d51441da62a89fdb9
   font-family: 'Georgia', serif;
   margin-bottom: 5px; /* Menos margem para aproximar o subtítulo */
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   gap: 5px; /* Menos espaço entre o texto e a logo */
+=======
+  gap: 8px; /* Menos espaço entre o texto e a logo */
+>>>>>>> 10c8bba3f2e07d6370cf831d51441da62a89fdb9
   flex-wrap: wrap; /* Garante que o conteúdo fique bem distribuído */
 }
 
 /* Estilo para a imagem dentro do título */
 .home-header img {
+<<<<<<< HEAD
   width: 6em; /* Ajustado o tamanho para ser maior que o título */
   height: auto;
   vertical-align: middle; /* Alinha a imagem com o texto */
@@ -50,6 +59,17 @@
 .home-header p {
   font-size: 1.3rem; /* Tamanho menor para o subtítulo */
   color: #cc0148; /* Rosa escuro */
+=======
+  width: 5em; /* Um pouco menor para se ajustar ao tamanho do título */
+  height: auto;
+  vertical-align: middle; /* Alinha a imagem com o texto */
+}
+
+/* Subtítulo */
+.home-header p {
+  font-size: 1.3rem; /* Tamanho menor para o subtítulo */
+  color: #8b4513; /* Cor quente para o subtítulo */
+>>>>>>> 10c8bba3f2e07d6370cf831d51441da62a89fdb9
   font-family: 'Arial', sans-serif;
 }
 
@@ -58,7 +78,11 @@
   max-width: 700px; /* Diminuí o tamanho máximo para aproximar do centro */
   margin: 0 auto;
   font-size: 1.2rem;
+<<<<<<< HEAD
   color: #cc0148; /* Cor suave para o conteúdo */
+=======
+  color: #5d4037; /* Cor suave para o conteúdo */
+>>>>>>> 10c8bba3f2e07d6370cf831d51441da62a89fdb9
   line-height: 1.5; /* Menor altura de linha para dar mais compactação */
   font-family: 'Arial', sans-serif;
 }
