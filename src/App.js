@@ -12,7 +12,7 @@ import './App.css';  // Importando o arquivo de estilos global
 
 function App() {
   return (
-    <Router basename="/site-palha">  {/* Define o caminho base para o GitHub Pages */}
+    <Router basename="/docedonna">  {/* Define o caminho base para o GitHub Pages */}
       <Header />  {/* Componente do cabeçalho */}
       <Routes>
         {/* Definindo as rotas para cada página */}
