@@ -17,7 +17,7 @@ function Produtos() {
     {
       nome: 'Palha Italiana Ninho',
       descricao: 'Uma deliciosa variação com leite ninho e chocolate branco  .',
-      preco: 'R$ 18,00',
+      preco: 'R$ 16,00',
       imagem: palhaninho, // Usando a imagem 'palhaninho.jpeg'
     },
     {
