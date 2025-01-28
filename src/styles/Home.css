@@ -2,7 +2,7 @@
 .home-container {
   background: linear-gradient(to right, #f5deb3, #d2b48c); /* Fundo com gradiente suave */
   text-align: center;
-  padding: 50px 20px;
+  padding: 30px 20px; /* Reduzido o padding para aproximar os elementos */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,37 +13,56 @@
 /* Cabeçalho da página */
 .home-header {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
+  padding: 10px 20px; /* Menos padding para aproximar mais os elementos */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Menor margem para aproximar do conteúdo abaixo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px; /* Espaço reduzido entre a logo e o título */
 }
 
+/* Estilo para o título com a logo */
 .home-header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem; /* Reduzido o tamanho da fonte do título */
   color: #6a2a2a; /* Cor chocolate para o título */
   font-family: 'Georgia', serif;
-  margin-bottom: 10px;
+  margin-bottom: 5px; /* Menos margem para aproximar o subtítulo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Menos espaço entre o texto e a logo */
+  flex-wrap: wrap; /* Garante que o conteúdo fique bem distribuído */
 }
 
+/* Estilo para a imagem dentro do título */
+.home-header img {
+  width: 5em; /* Um pouco menor para se ajustar ao tamanho do título */
+  height: auto;
+  vertical-align: middle; /* Alinha a imagem com o texto */
+}
+
+/* Subtítulo */
 .home-header p {
-  font-size: 1.5rem;
+  font-size: 1.3rem; /* Tamanho menor para o subtítulo */
   color: #8b4513; /* Cor quente para o subtítulo */
   font-family: 'Arial', sans-serif;
 }
 
 /* Conteúdo adicional abaixo do cabeçalho */
 .home-content {
-  max-width: 800px;
+  max-width: 700px; /* Diminuí o tamanho máximo para aproximar do centro */
   margin: 0 auto;
   font-size: 1.2rem;
   color: #5d4037; /* Cor suave para o conteúdo */
-  line-height: 1.6;
+  line-height: 1.5; /* Menor altura de linha para dar mais compactação */
   font-family: 'Arial', sans-serif;
 }
 
 .home-content p {
-  margin: 15px 0;
+  margin: 10px 0; /* Menos margem entre os parágrafos */
 }
 
 /* Animação suave para o título */
