@@ -1,6 +1,6 @@
 /* Estilo geral para a página de Parcerias */
 .parcerias-container {
-  background: linear-gradient(135deg, #f8b4b4, #f4e1d2); /* Fundo suave com gradiente */
+  background: linear-gradient(to right, #f7c6d9, #f7c6d9); /* Fundo suave com gradiente */
   padding: 60px 20px;
   text-align: center;
   min-height: 100vh;
@@ -90,7 +90,7 @@
 }
 
 .instagram-btn:hover {
-  background-color: #6a2a2a;
+  background-color: #c60b38;
   transform: scale(1.05);
 }
 

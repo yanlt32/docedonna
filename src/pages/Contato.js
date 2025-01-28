@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com'; // Importa o EmailJS
 import '../styles/Contatos.css';
 
 function Contato() {
@@ -18,12 +19,34 @@ function Contato() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Mensagem enviada com sucesso!');
-    setFormData({
-      nome: '',
-      email: '',
-      mensagem: ''
-    });
+
+    // Enviar o email usando o EmailJS
+    emailjs
+      .send(
+        'service_63ue958', // Substitua pelo seu Service ID
+        'template_5xpwymm', // Substitua pelo seu Template ID
+        {
+          nome: formData.nome,
+          email: formData.email,
+          mensagem: formData.mensagem,
+        },
+        'xBUz4snNMp_Rlle4J' // Substitua pela sua Public Key
+      )
+      .then(
+        (response) => {
+          console.log('Email enviado com sucesso!', response.status, response.text);
+          alert('Mensagem enviada com sucesso!');
+          setFormData({
+            nome: '',
+            email: '',
+            mensagem: ''
+          });
+        },
+        (error) => {
+          console.error('Erro ao enviar o email:', error);
+          alert('Ocorreu um erro ao enviar sua mensagem. Tente novamente.');
+        }
+      );
   };
 
   return (
