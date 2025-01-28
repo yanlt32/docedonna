@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/docedonna/static/css/main.4f75bc04.css",
-    "main.js": "/docedonna/static/js/main.c14c640e.js",
-    "static/media/palhatradicional.jpg": "/docedonna/static/media/palhatradicional.7e6f3179e3dd053d355d.jpg",
-    "static/media/inter.png": "/docedonna/static/media/inter.325aae6a89b75b66dfac.png",
-    "static/media/palhaninho.jpeg": "/docedonna/static/media/palhaninho.585aaaa7d46433b270df.jpeg",
-    "index.html": "/docedonna/index.html",
-    "main.4f75bc04.css.map": "/docedonna/static/css/main.4f75bc04.css.map",
-    "main.c14c640e.js.map": "/docedonna/static/js/main.c14c640e.js.map"
+    "main.css": "/site-palha/static/css/main.4f75bc04.css",
+    "main.js": "/site-palha/static/js/main.5a62caa4.js",
+    "static/media/palhatradicional.jpg": "/site-palha/static/media/palhatradicional.7e6f3179e3dd053d355d.jpg",
+    "static/media/inter.png": "/site-palha/static/media/inter.325aae6a89b75b66dfac.png",
+    "static/media/palhaninho.jpeg": "/site-palha/static/media/palhaninho.585aaaa7d46433b270df.jpeg",
+    "index.html": "/site-palha/index.html",
+    "main.4f75bc04.css.map": "/site-palha/static/css/main.4f75bc04.css.map",
+    "main.5a62caa4.js.map": "/site-palha/static/js/main.5a62caa4.js.map"
   },
   "entrypoints": [
     "static/css/main.4f75bc04.css",
-    "static/js/main.c14c640e.js"
+    "static/js/main.5a62caa4.js"
   ]
 }
